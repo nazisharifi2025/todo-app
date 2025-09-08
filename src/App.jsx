@@ -11,14 +11,13 @@ function App() {
         <h1 className="font-bold text-2xl">Image Gallre</h1>
         </div>
        <ul className="flex gap-8 items-center justify-center">
-        <li>
+        <li className="hover:border-b transition-all duration-500 ">
           <a href="/">Home</a>
         </li>
-        <li><a href="Image">AddImage</a></li>
+        <li className="hover:border-b transition-all duration-500 "><a href="Images">AddImage</a></li>
        </ul>
       </nav>
       {/* nave ended */}
-    
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
