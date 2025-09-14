@@ -8,7 +8,7 @@ function App() {
       <nav className="w-full flex px-12 h-20 shadow-md bg-white shadow-gray-200 justify-between items-center font-serif">
         <div className="h-full flex items-center">
         <img src="/public/download.jpeg" className="h-16 w-32 rounded-md" alt="" />
-        <h1 className="font-bold text-2xl">Image Gallre</h1>
+        <h1 className="font-bold text-2xl">Image Gallery</h1>
         </div>
        <ul className="flex gap-8 items-center justify-center">
         <li className="hover:border-b transition-all duration-500 ">

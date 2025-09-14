@@ -1,7 +1,9 @@
+import Clock from "../Component/Clock";
+
 export default function Home(){
     return(
         <div>
-            <h1>Home pages</h1>
+           <Clock/>
         </div>
     )
 }

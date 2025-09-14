@@ -58,9 +58,9 @@ function showPrevImage() {
             <option className="text-gray-500" value="netcher">Catagori</option>
             <option className="text-gray-500" value="netcher">Netcher</option>
             <option className="text-gray-500" value="Animal">Animal</option>
-            <option className="text-gray-500" value="Tecnologi">Tecnologe</option>
+            <option className="text-gray-500" value="Tecnologi">Technology</option>
             <option className="text-gray-500" value="art">Art</option>
-            <option className="text-gray-500" value="world">World</option>
+            <option className="text-gray-500" value="world">Word</option>
         </select>
         <button onClick={handelclick} className="border border-gray-300 rounded-md py-3 px-12 w-fit mx-auto shadow-md hover:shadow-inner shadow-gray-400">Save</button>
         </form>
